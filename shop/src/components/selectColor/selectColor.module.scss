@@ -1,0 +1,27 @@
+.colorBlock{
+    margin-top: 1rem;
+    display: grid;
+}
+
+.onlyColor{
+    margin-top: 1rem;
+    gap: 1rem;
+    display: flex;
+}
+
+.colorSquare{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.txt{
+    display: flex;
+    align-items: center;
+}
+
+ .selected{
+    border: 0.3rem solid black;
+}

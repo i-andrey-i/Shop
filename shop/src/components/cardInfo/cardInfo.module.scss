@@ -1,0 +1,33 @@
+.card{
+    margin-top: 4.9rem;
+    background-color: #D9D9D9;
+    height: 38rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-left: auto;
+    margin-right: 4.9rem;
+
+    .add{
+        margin-top: 2rem;
+        width: 20rem;
+        padding: 1rem;
+        text-align: center;
+        color: #969595;
+        border-radius: 2rem;
+        background-color: white;
+        font-weight: 600;
+        font-size: 2rem;
+        cursor: pointer;
+        margin-bottom: 2rem;
+
+    }
+
+    h1{ 
+        font-size: 4rem;
+    }
+
+    p{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+}

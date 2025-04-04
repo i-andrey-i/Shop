@@ -1,0 +1,33 @@
+.sizes{
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.size{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 2rem;
+    
+    &.available {
+        background-color: #ffffff;
+        color: #000;
+        cursor: pointer;
+    }
+
+    &.selected{
+            background-color: #ffffff;
+            border: 0.3rem solid black;
+        }
+    
+    &.unavailable {
+        background-color: #b9b7b7;
+        color: #000000;
+    }
+}
